@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white shadow-md px-6 py-3 z-10">
+    <header className="w-full bg-white shadow-md px-6 py-3 z-10 fixed top-0 left-0">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/">

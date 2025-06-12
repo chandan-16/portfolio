@@ -20,7 +20,7 @@ const Footer = () => {
         //     <hr className="border-gray-700 mb-4" />
         //     <p className="text-center text-sm text-gray-400">© Copyright 2025 . Made by <span className="text-underline">Chandan Gautam</span> </p> 
         // </footer>
-<footer className="bg-black text-white py-10 px-4 sm:px-6 md:px-12 lg:px-24 fixed bottom-0 left-0 w-full">
+<footer className="bg-black text-white py-10 px-4 sm:px-6 md:px-12 lg:px-24  bottom-0 left-0 w-full mt-20">
     <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between gap-10 sm:gap-4 mb-8">
             
@@ -44,7 +44,7 @@ const Footer = () => {
 
         <hr className="border-gray-700 mb-4" />
         <p className="text-center text-sm text-gray-400">
-            © Copyright 2025 . Made by <span className="font-bold">CHANDAN GAUTAM with ♡</span>
+            © Copyright 2025 . Made by <span className="font-bold">CHANDAN GAUTAM with ❤️</span>
         </p>
     </div>
 </footer>        
