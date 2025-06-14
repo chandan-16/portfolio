@@ -10,14 +10,14 @@ const Project = () => {
       title: "Yummate",
       image: yummateImg,
       description: "Yummate is a fully responsive online food delivery app that lets users sign up, sign in, and browse a list of restaurants fetched via API. It includes key features like adding items to a cart, removing them, and a smooth, user-friendly interface for a seamless food ordering experience.",
-      tags: ["React", "Tailwind CSS", "JavaScript"]
+      tags: ["React", "Tailwind CSS", "JavaScript", "API Integration"]
     },
     {
       id: 2,
       title: "Taskmate",
       image: taskmateImg,
       description: "Taskmate is a simple and responsive task management app where users can easily add, update, and delete tasks. It also features a background toggle button for a customizable look and feel, enhancing both usability and user experience.",
-      tags: ["React", "CSS3", "API Integration"]
+      tags: ["React", "CSS3", "HTML5" ]
     },
     {
       id: 3,

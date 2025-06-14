@@ -2,14 +2,15 @@ import purple from "../assets/images/purple-me.jpeg";
 
 const Footer = () => {
     return(
-    <footer className="bg-black text-white py-10 px-4 sm:px-6 md:px-12 lg:px-24  bottom-0 left-0 w-full mt-20">
+    <footer className="bg-black text-white py-10 px-4 sm:px-6 md:px-12 lg:px-24 w-full mt-20">
         <div className="max-w-6xl mx-auto">
-            <div className="flex flex-col sm:flex-row justify-between gap-10 sm:gap-4 mb-8">
+
+            <div className="flex flex-col md:flex-row justify-between gap-10 mb-8">
                 
-                <div className="sm:w-1/2">
+                <div className="flex flex-col gap-6 md:w-1/2">
                     <h2 className="text-2xl font-bold mb-2">CHANDAN GAUTAM</h2>
-                    <p className="text-sm leading-relaxed">
-                        A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product.
+                    <p className="text-md leading-relaxed text-gray-300">
+                        "Start where you are. Use what you have. Do what you can." — Arthur Ashe
                     </p>
 
                 <div className="sm:w-1/2 pt-5">
@@ -23,8 +24,8 @@ const Footer = () => {
 
                 </div>
 
-                <div className="sm:w-1/2">
-                    <img src={purple} alt="Self" className="rounded-full h-50 w-50" />
+                <div className="md:w-1/2 flex justify-center md:justify-end">
+                    <img src={purple} alt="Self" className="rounded-full w-50 h-50 object-cover" />
                 </div>
             </div>
 
