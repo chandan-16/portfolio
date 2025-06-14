@@ -16,9 +16,9 @@ const Footer = () => {
                 <div className="sm:w-1/2 pt-5">
                     <h2 className="text-2xl font-bold mb-2">SOCIAL</h2>
                     <ul className="flex gap-4 text-xl">
-                        <li><a href="#"><i className="bi bi-linkedin"></i></a></li>
-                        <li><a href="#"><i className="bi bi-github"></i></a></li>
-                        <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/feed/"><i className="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://github.com/"><i className="bi bi-github"></i></a></li>
+                        <li><a href="https://www.youtube.com/@chandangautam5763"><i className="bi bi-youtube"></i></a></li>
                     </ul>
                 </div>                    
 

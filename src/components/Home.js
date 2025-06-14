@@ -1,9 +1,3 @@
-import { useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
-import About from "./About";
-import Project from "./Project";
-import Contact from "./Contact";
-
 const Home = ({ scrollToProjects }) => {
     return(
     <div className="bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] bg-no-repeat bg-center bg-cover w-full h-screen flex items-center justify-center relative px-4">
