@@ -15,9 +15,9 @@ const Home = ({ scrollToProjects }) => {
             {/* Scroll Animation Indicator */}
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
                 <div className="animate-bounce flex flex-col items-center">
-                    <p className="text-gray-600 mb-2 text-sm">Scroll Down</p>
+                    <p className="text-gray-600 mb-2 text-sm font-bold text-xl">Scroll Down</p>
                     <svg 
-                        className="w-6 h-6 text-violet-600" 
+                        className="w-6 h-6 text-violet-600 font-bold text-bolder" 
                         fill="none" 
                         strokeLinecap="round" 
                         strokeLinejoin="round" 
