@@ -1,25 +1,29 @@
+import yummateImg from '../assets/images/yummate.jpeg';
+import taskmateImg from "../assets/images/taskmate.jpeg";
+import cinemateImg from "../assets/images/cinemate.jpeg";
+
 const Project = () => {
-  // Dummy project data
+
   const projects = [
     {
       id: 1,
-      title: "Wilsonport",
-      image: "https://via.placeholder.com/600x400/333/fff?text=Wilsonport",
-      description: "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
+      title: "Yummate",
+      image: yummateImg,
+      description: "Yummate is a fully responsive online food delivery app that lets users sign up, sign in, and browse a list of restaurants fetched via API. It includes key features like adding items to a cart, removing them, and a smooth, user-friendly interface for a seamless food ordering experience.",
       tags: ["React", "Tailwind CSS", "JavaScript"]
     },
     {
       id: 2,
-      title: "Foodverse",
-      image: "https://via.placeholder.com/600x400/553/fff?text=Foodverse",
-      description: "A recipe application where users can search for recipes by ingredients and save their favorite ones. Built with React and styled with CSS.",
+      title: "Taskmate",
+      image: taskmateImg,
+      description: "Taskmate is a simple and responsive task management app where users can easily add, update, and delete tasks. It also features a background toggle button for a customizable look and feel, enhancing both usability and user experience.",
       tags: ["React", "CSS3", "API Integration"]
     },
     {
       id: 3,
-      title: "Weatherly",
-      image: "https://via.placeholder.com/600x400/355/fff?text=Weatherly",
-      description: "A weather forecast application that provides real-time weather information for any location. Uses OpenWeather API and features a responsive design.",
+      title: "Cinemate",
+      image: cinemateImg,
+      description: "Cinemate is a fully responsive movie search application where users can explore movies, view ratings and detailed information, and switch between dark and light modes using a toggle button. Designed for smooth browsing and a modern user experience.",
       tags: ["JavaScript", "HTML5", "CSS3", "API"]
     },
     {
@@ -33,7 +37,7 @@ const Project = () => {
 
   return (
     <>
-      <div className="text-center pb-10 z-20 mb-10 px-4 mt-20">
+      <div className="text-center pb-10 z-20 mb-10 px-4 mt-20 pt-10">
         <h2 className="text-4xl sm:text-5xl font-[900] tracking-widest pt-10 pb-5">Projects</h2>
         <hr className="h-2 w-7 rounded bg-violet-600 border-none mb-5 mx-auto" />
         <p className="text-[#555555] text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto">Here you will find some of my personal projects that I have created and with each project containing its own case study</p>
